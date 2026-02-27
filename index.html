@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <script src="main.js"></script>
+    <div class="icons">
+      <i class="fa-solid fa-hand-back-fist"></i>
+      <i class="fa-solid fa-hand"></i>
+      <i class="fa-solid fa-scissors"></i>
+    </div>
+
+    <div class="score">
+      <p>Player Score:</p>
+      <p>Computer Score:</p>
+    </div>
+
+    <div class="choice">
+      <button onclick="playGame('rock')">🪨</button>
+      <button onclick="playGame('paper')">📄</button>
+      <button onclick="playGame('scissors')">✂️</button>
+    </div>
+  </body>
+</html>

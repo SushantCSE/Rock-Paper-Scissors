@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #0c247c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 48px;
+    color: turquoise;
+    margin-bottom: 20px;
+}
+
+.score{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choice button{
+    font-size: 140px;
+    background-color: transparent;
+    border: none;
+}
